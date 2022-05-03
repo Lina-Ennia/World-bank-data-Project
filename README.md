@@ -15,9 +15,14 @@ _Indicators:
 *Unemployment
 *Mortality rates
 
-Generators for the large data limit:
+_ Generators for the large data limit:
 *Use a generator to load a file line by line
 *Works on streaming data
 *Read and process the file until all lines are exhausted
 
 feature_names and row_vals contain the header names of the dataset and actual values of a row from the dataset, respectively.
+
+_ Reading files in chunks:
+*read_csv() function and chunk_size argument
+*Look at specific indicators in specific countries
+*Function to generalize tasks
