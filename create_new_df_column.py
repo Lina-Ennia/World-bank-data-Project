@@ -18,3 +18,10 @@ pops_list = list(pops)
 
 # Print pops_list
 print(pops_list)
+
+# Use list comprehension to create new DataFrame column 'Total Urban Population'
+df_pop_ceb['Total Urban Population'] = [int(tup[0] * tup[1] * 0.01) for tup in pops_list]
+
+# Plot urban population data
+df_pop_ceb.plot(kind='scatter', x='Year', y='Total Urban Population')
+plt.show()
