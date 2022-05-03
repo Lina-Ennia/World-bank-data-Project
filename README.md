@@ -1,6 +1,7 @@
 # World-bank-data-Project
 
-This project aim to use Python generators for streaming data of the Wold bank.
+This project aims to use Python generators for streaming data of the Wold bank. It's about writing user-defined functions, iterators, list comprehensions and generators to wrangle and extract meaningful information from a real-world dataset.
+
 
 Description of world bank data used:
 
