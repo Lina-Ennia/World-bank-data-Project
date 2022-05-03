@@ -1,4 +1,4 @@
-# Initialize an empty dictionary: counts_dict
+# Initialize an empty dictionary: counts_dict of the counts of how many times each country appears in a column in the dataset
 counts_dict = {}
 # Open a connection to the file
 with open('world_dev_ind.csv') as file:
